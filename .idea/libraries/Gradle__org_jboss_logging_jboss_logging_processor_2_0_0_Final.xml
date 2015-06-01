@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.logging:jboss-logging-processor:2.0.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-processor/2.0.0.Final/85845ed34f3351e7ac6de72fd043542f2b57e84d/jboss-logging-processor-2.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging-processor/2.0.0.Final/1d4b55854461eccb5a68f16d2dd13bd6284df90a/jboss-logging-processor-2.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

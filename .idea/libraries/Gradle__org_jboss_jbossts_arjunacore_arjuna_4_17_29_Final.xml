@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.jbossts.arjunacore:arjuna:4.17.29.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jbossts.arjunacore/arjuna/4.17.29.Final/cbd1b19303518a6ad7485f86271a2a0041a250a3/arjuna-4.17.29.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jbossts.arjunacore/arjuna/4.17.29.Final/e0300cb50af368ab74e4dd086be64e206bd9950d/arjuna-4.17.29.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

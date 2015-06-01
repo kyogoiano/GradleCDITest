@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.jbossts:common:4.17.29.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jbossts/common/4.17.29.Final/a57fb2e7fadf36deb8fdc1b7f6cf5ff95beabda9/common-4.17.29.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jbossts/common/4.17.29.Final/aa20bd9a61461273a442543f51f37e3709406dc3/common-4.17.29.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

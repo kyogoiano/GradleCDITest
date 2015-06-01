@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.classfilewriter:jboss-classfilewriter:1.0.5.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.classfilewriter/jboss-classfilewriter/1.0.5.Final/adb572870c3b0a41b9e7f5a8bcac84a47ed119fd/jboss-classfilewriter-1.0.5.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.classfilewriter/jboss-classfilewriter/1.0.5.Final/5134466ec8e886e7cbbe699d8a6961d7315a2b32/jboss-classfilewriter-1.0.5.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

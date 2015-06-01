@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.deltaspike.modules:deltaspike-security-module-impl:1.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-security-module-impl/1.4.0/69a59841426c143c9279c895f1c3803b1a91c64c/deltaspike-security-module-impl-1.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.deltaspike.modules/deltaspike-security-module-impl/1.4.0/2037b63e9c5a4804fb43d6a558d47858af40dd55/deltaspike-security-module-impl-1.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

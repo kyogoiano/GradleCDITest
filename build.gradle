@@ -1,0 +1,77 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven{
+            url "https://nexus.codehaus.org/content/repositories/snapshots"
+        }
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'idea'
+
+jar {
+    baseName = 'gs-cdi'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+    maven{
+        url "https://nexus.codehaus.org/content/repositories/snapshots"
+    }
+}
+
+sourceCompatibility = 1.7
+targetCompatibility = 1.7
+
+dependencies {
+    compile('org.jboss.jbossts.arjunacore:arjuna:4.17.+')
+    compile('org.jboss.logging:jboss-logging-processor:2.0.+')
+
+    compile('org.slf4j:slf4j-api:1.7.+')
+    compile('com.google.guava:guava:18.+')
+
+    //cdi api depends on impl
+    compile('javax.enterprise:cdi-api:1.2')
+//     weld
+    runtime('org.apache.deltaspike.cdictrl:deltaspike-cdictrl-weld:1.4.0')
+    runtime('org.jboss.weld.se:weld-se-core:2.2.12+')
+
+    // owb
+//    runtime('org.apache.deltaspike.cdictrl:deltaspike-cdictrl-owb:1.3.0')
+//    runtime('org.apache.openwebbeans:openwebbeans-impl:1.2.+')
+//    compile('org.apache.openwebbeans:openwebbeans-spi:1.2.+')
+
+    //deltaspike
+    compile('org.apache.deltaspike.cdictrl:deltaspike-cdictrl-api:1.4.0')
+    compile('org.apache.deltaspike.core:deltaspike-core-api:1.4.0')
+    runtime('org.apache.deltaspike.core:deltaspike-core-impl:1.4.0')
+    compile('org.apache.deltaspike.modules:deltaspike-security-module-api:1.4.0')
+    runtime('org.apache.deltaspike.modules:deltaspike-security-module-impl:1.4.0')
+    testCompile('org.apache.deltaspike.modules:deltaspike-test-control-module-api:1.4.0')
+
+    // jpa
+    compile('org.eclipse.persistence:javax.persistence:2.1.0')
+    runtime('org.eclipse.persistence:eclipselink:2.6.+')
+
+    // testing
+    testCompile("junit:junit:4.+")
+    testCompile('org.testng:testng:6.9.+')
+
+}
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.0'
+}
+
+sourceSets {
+    main {
+        output.resourcesDir = 'build/classes/main'
+        output.classesDir   = 'build/classes/main'
+    }
+    test {
+        output.resourcesDir = 'build/classes/test'
+        output.classesDir   = 'build/classes/test'
+    }
+}

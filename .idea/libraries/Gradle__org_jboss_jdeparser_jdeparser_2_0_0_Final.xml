@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.jboss.jdeparser:jdeparser:2.0.0.Final">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jdeparser/jdeparser/2.0.0.Final/71ec53d2ad72d6cb4e89653d66f65b3f8170870d/jdeparser-2.0.0.Final.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jboss.jdeparser/jdeparser/2.0.0.Final/ce3b3bad8dccacacd0b02956ed484345d2ed5eb8/jdeparser-2.0.0.Final-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
